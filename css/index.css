@@ -214,11 +214,10 @@ CSS for about.html specifics below
 
 .about-top-content {
     border-bottom: 1px dashed black;
-    padding-bottom: 20px; 
+    padding: 0px 20px 20px 20px; 
 }
 
 .main-text-container {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -247,4 +246,8 @@ CSS for about.html specifics below
     margin-bottom: 17px;
     border-radius: 9px;
     border: 1.5px solid black;
+}
+
+.about-bottom-content {
+    padding: 30px 20px;
 }

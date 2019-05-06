@@ -239,6 +239,12 @@ CSS for about.html specifics below
     margin-top: 10px;
 }
 
+.main button:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
 .main button {
     font-size: 14px;
     padding: 7px 25px;

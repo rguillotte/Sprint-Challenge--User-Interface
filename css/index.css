@@ -212,3 +212,39 @@ header nav a:first-child {
 CSS for about.html specifics below
 */
 
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px; 
+}
+
+.main-text-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around
+}
+
+.main img {
+    width: 360px;
+    height: auto;
+}
+
+.main {
+    margin: 20px;
+    width: 360px;
+    border-bottom: 1px dashed black;
+}
+
+.main h2 {
+    margin-top: 10px;
+}
+
+.main button {
+    font-size: 14px;
+    padding: 7px 25px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    border-radius: 9px;
+    border: 1.5px solid black;
+}

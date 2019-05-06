@@ -144,3 +144,27 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+header nav a {
+    padding-left: 85px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:first-child {
+    padding-left: 45px;
+}
+
+.header .jumbo {
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+

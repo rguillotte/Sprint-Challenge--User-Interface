@@ -252,6 +252,7 @@ CSS for about.html specifics below
     margin-bottom: 17px;
     border-radius: 9px;
     border: 1.5px solid black;
+    transition: 0.2s;
 }
 
 .about-bottom-content {

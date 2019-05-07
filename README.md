@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the idea that your markups give the content underlying meaning. For example 'header' and 'nav' have more meaning than 'div' (you can use a div to build a navigation bar) but there is no underlying information associated with 'div'. Semantic HTML also helps screenreaders provide much more useful information to disabled users, and can also contribute to SEO.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Elements that inherently have or are given```display:block;``` take up the entire width of the page while elements that inherently have or are given ```display: inline;``` can flow on the same line as other elements provided the width allows for it. 
+
+Elements with ```display:block;``` can have their height and widths set while elements with ```display:inline;``` ignore height and width properties.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are: content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+```align-items: center``` works on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable because it allows members of a team to clone their own repos and work on projects without messing with the master repo. It also gives you the ability to go back to previous saves/versions that you had been working on. In short, it is valuable for its version control abilities, which is important when a large number of members are working on a project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

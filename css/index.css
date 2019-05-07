@@ -144,3 +144,117 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+
+header nav a {
+    padding-left: 85px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:first-child {
+    padding-left: 45px;
+}
+
+.header .jumbo {
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchild;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+/* 
+CSS for about.html specifics below
+*/
+
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding: 0px 20px 20px 20px; 
+}
+
+.main-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around
+}
+
+.main img {
+    width: 360px;
+    height: auto;
+}
+
+.main {
+    margin: 20px;
+    width: 360px;
+    border-bottom: 1px dashed black;
+}
+
+.main h2 {
+    margin-top: 10px;
+}
+
+.main button:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.main button {
+    font-size: 14px;
+    padding: 7px 25px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    border-radius: 9px;
+    border: 1.5px solid black;
+    transition: 0.2s;
+}
+
+.about-bottom-content {
+    padding: 30px 20px;
+}
